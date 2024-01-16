@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap_Project</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Profiles</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./HTML_Pages/John_Abraham.html">John Abraham</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./HTML_Pages/Jeff_Bezos.html">Jeff Bezos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./HTML_Pages/Bill_Gates.html">Bill Gates</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./HTML_Pages/Mukesh_Ambani.html">Mukesh Ambani</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="./HTML_Pages/Contact_Us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Logout</button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">BootStrap Project</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Thank you for visiting my Website, have a Great Day! 
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-warning">Logout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        
+        <h1>Welcome to Home Screen</h1> 
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-4 col-sm-6"><!--Play wisely with sizes because they are the only one who make our responsive, so choose wisely-->
+                    <div class="card shadow"><!--width does not help us to give responsive webpage because when width of the screen shrinking according to the devices(like mobile devices) all 12 column slots gets equal distributed width, but when we provide a card its own width then its responsivenes is also gone with it-->
+                        <img src="https://c4.wallpaperflare.com/wallpaper/428/898/521/john-abraham-abstract-photoshoot-wallpaper-preview.jpg" alt="Photo of John Abraham">
+                        <div class="card-body">
+                            <h4 class="card-title">John Abraham</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet dolores quidem beatae suscipit temporibus eum, cupiditate sunt quo possimus asperiores aspernatur. Eum a, velit enim deserunt quia amet eaque voluptatem consequatur obcaecati asperiores ad earum aut mollitia quo rerum autem laboriosam, deleniti beatae id accusamus. Asperiores fuga non cum! Veniam quasi ipsa, accusamus maiores numquam eos consectetur cupiditate.</p>
+                            <a href="./HTML_Pages/John_Abraham.html" class="btn btn-primary">check john's profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card shadow">
+                        <img src="https://w0.peakpx.com/wallpaper/482/345/HD-wallpaper-jeff-bezos-2021-american-entrepreneur-guys-american-celebrity-jeff-bezos-hoot.jpg" alt="Photo of Jeff Bezos">
+                        <div class="card-body">
+                            <h4 class="card-title">Jeff Bezos</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet dolores quidem beatae suscipit temporibus eum, cupiditate sunt quo possimus asperiores aspernatur. Eum a, velit enim deserunt quia amet eaque voluptatem consequatur obcaecati asperiores ad earum aut mollitia quo rerum autem laboriosam, deleniti beatae id accusamus. Asperiores fuga non cum! Veniam quasi ipsa, accusamus maiores numquam eos consectetur cupiditate.</p>
+                            <a href="./HTML_Pages/Jeff_Bezos.html" class="btn btn-primary">check jeff's profile</a>
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card shadow">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/662/44/961/bill-gates-hd-wallpaper-preview.jpg" alt="Photo of Bill Gates">
+                        <div class="card-body">
+                            <h4 class="card-title">Bill Gates</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet dolores quidem beatae suscipit temporibus eum, cupiditate sunt quo possimus asperiores aspernatur. Eum a, velit enim deserunt quia amet eaque voluptatem consequatur obcaecati asperiores ad earum aut mollitia quo rerum autem laboriosam, deleniti beatae id accusamus. Asperiores fuga non cum! Veniam quasi ipsa, accusamus maiores numquam eos consectetur cupiditate.</p>
+                            <a href="./HTML_Pages/Bill_Gates.html" class="btn btn-primary">check bill's profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="card shadow">
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/877/928/desktop-wallpaper-mukesh-ambani.jpg" alt="Photo of Mukesh Ambani">
+                        <div class="card-body">
+                            <h4 class="card-title">Mukesh Ambani</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi amet dolores quidem beatae suscipit temporibus eum, cupiditate sunt quo possimus asperiores aspernatur. Eum a, velit enim deserunt quia amet eaque voluptatem consequatur obcaecati asperiores ad earum aut mollitia quo rerum autem laboriosam, deleniti beatae id accusamus. Asperiores fuga non cum! Veniam quasi ipsa, accusamus maiores numquam eos consectetur cupiditate.</p>
+                            <a href="./HTML_Pages/Mukesh_Ambani.html" class="btn btn-primary">check mukesh's profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+<!--one thing i learned about responsiveness is that it follows descending order, 
+if we remove col-lg-3 then the large screen take the input of col-md-4 and similarly, 
+removing col-md-4 it follows the command of col-sm-6,
+and that's how the responsiveness of the page shifts but it didn't loose its responsive nature although but the size of the content may vary with this. -->  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body> 
+</html>
